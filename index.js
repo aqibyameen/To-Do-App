@@ -27,7 +27,7 @@ function renderTodo(){
 function editFunc(index){
     console.log("edit");
     const n= prompt(`Enter value to update ${arr[index]}`);
-    if(n!=""){
+    if(n!="" && n!=null){
    arr[index]=n;
 
     }
@@ -58,27 +58,4 @@ function deleteFunc(index){
 }
 
  
-// const fruit=['apple','mango','banana'];
-// var ol =document.querySelector('ol');
-
-//   function myFunc(){
-//     ol.innerHTML='';
-//     var i=0;
-//     do{
-//         console.log("hello");
-//     }
-//     while(i<10){
-//         console.log('jawwad ki bachi holofera');
-//         i++
-//     }
-// while(i<fruit.length){
-//     ol.innerHTML += `<li>${fruit[i]}</li>`;
-//     i++;
-
-// }
-// for (let i = 0; i < fruit.length; i++) {
-//     ol.innerHTML += `<li>${fruit[i]}</li>`;
-    
-// }
-//   }
 
