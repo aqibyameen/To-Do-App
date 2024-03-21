@@ -40,6 +40,7 @@ function editConfirm(index){
 function notShow1(){
     const f= document.querySelector('.edit1');
     f.style.display='none';
+    f.style.direction='column';
     f.innerHTML='';
     
    }
